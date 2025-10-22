@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none; /*tira o sublinhado*/
+    font-family: "Roboto", sans-serif;
+    
+    
+}
+
+body{
+    background-color: rgb(27, 5, 5);
+}
+
+.interface{
+    max-width: 1280px;  /* largura maxima*/
+    margin: 0 auto;  /*centraliza o conteudo*/
+
+
+}
+
+/* estulo do headaer */
+
+header{
+    width: 100%; /*largura*/
+    padding: 20px 0; /* espaçamento interno superior e inferior */
+}
+
+header .interface{
+     display: flex;  /* da um espaçamento tirando um de cima do outro */
+     justify-content: space-between; /* espaço entre os elementos */
+     align-items: center; /* alinha os itens no centro */
+
+}
+
+header .logo img{
+    max-width: 40px; /* largura maxima da logo */
+
+}
+
+header .menu-desktop nav ul li{
+
+  display: inline-block; /* deixa os itens na horizontal */
+  margin: 0 40px; /* espaçamento entre os itens */
+}
+
+header .menu-desktop nav ul li a{
+
+
+ color: #fff;
+
+}
+
+header .btn-contato button{
+
+    width: 140px;
+    height: 50px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer; /*muda o cursor quando passa por cima */
+
+}
