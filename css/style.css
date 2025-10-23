@@ -21,19 +21,20 @@ body {
     margin: 0 auto;
     /*centraliza o conteudo*/
 
-    header .btn-contato button, .capa-site button {
+    header .btn-contato button,
+    .capa-site button {
 
-    width: 140px;
-    height: 50px;
-    font-size: 18px;
-    background-color: transparent;
-    border: 1px solid #fff;
-    color: #fff;
-    cursor: pointer;
-    /*muda o cursor quando passa por cima */
+        width: 140px;
+        height: 50px;
+        font-size: 18px;
+        background-color: transparent;
+        border: 1px solid #fff;
+        color: #fff;
+        cursor: pointer;
+        /*muda o cursor quando passa por cima */
 
 
-}
+    }
 
 
 }
@@ -45,10 +46,11 @@ header {
     /*largura*/
     padding: 20px 0;
     /* espaçamento interno superior e inferior */
-    position: fixed;/* fixa o header no topo */
+    position: fixed;
+    /* fixa o header no topo */
     top: 0;
     left: 0;
-    
+
 
 }
 
@@ -91,43 +93,48 @@ header .menu-desktop nav ul li a {
 
 
 
-header .btn-contato button:hover,  {
-    background-color: #fff;
-    color: rgb(27, 5, 5);
-    transition: 0.3s;
-    font-size: 20px;
+header .btn-contato button:hover,
+{
+background-color: #fff;
+color: rgb(27, 5, 5);
+transition: 0.3s;
+font-size: 20px;
 }
 
-section.capa-site{
-    height: 98vh; /* altura da seção */
-    background-image: url("../img/bg-inicio-site.jpg"); /* imagem de fundo */
-    background-repeat: no-repeat; /* não repetir a imagem */
+section.capa-site {
+    height: 98vh;
+    /* altura da seção */
+    background-image: url("../img/bg-inicio-site.jpg");
+    /* imagem de fundo */
+    background-repeat: no-repeat;
+    /* não repetir a imagem */
     background-size: cover;
-    background-position: center; /* centralizar a imagem */
+    background-position: center;
+    /* centralizar a imagem */
     color: #fff;
 
 }
 
-.capa-site .interface{
+.capa-site .interface {
 
-   display: flex;
-   align-items: center;
+    display: flex;
+    align-items: center;
     height: 100%;
 }
 
-.capa-site .txt-capa h1{
+.capa-site .txt-capa h1 {
     font-size: 4em;
     line-height: 70px;
     font-weight: 200;
 }
 
-.capa-site .txt-capa h1 span{
+.capa-site .txt-capa h1 span {
     display: block;
     font-weight: 800;
 
 }
 
-.capa-site .txt-capa p{
+.capa-site .txt-capa p {
     margin: 20px 0 40px 0;
     font-size: 20px;
     line-height: 30px;
@@ -136,19 +143,19 @@ section.capa-site{
 
 }
 
-.capa-site .txt-capa p span{
+.capa-site .txt-capa p span {
 
     display: block;
 
 }
 
-.capa-site button{
+.capa-site button {
     width: 220px;
     height: 60px;
     font-size: 20px;
 }
 
-.capa-site button:hover{
+.capa-site button:hover {
     background-color: #fff;
     color: rgb(27, 5, 5);
     transition: 0.3s;
