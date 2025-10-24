@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(207, 206, 206);
 }
 
 .interface {
@@ -197,5 +197,27 @@ section.vantagens {
 
 .vantagens  .itens-container {
    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 10%; /* espaçamento entre os itens */
+   margin-bottom: 60px;
+
+
 
 }
+
+.vantagens  .itens-container .img-itens img{
+    max-width: 420px;
+
+}
+.vantagens  .itens-container .txt-itens h3{
+    font-size: 3em;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.itens-container .txt-itens h3 span{
+   font-weight: 300;
+
+}
+
